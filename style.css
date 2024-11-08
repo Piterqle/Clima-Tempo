@@ -33,12 +33,13 @@ label
 }
 #iconClima
 {
+    margin-top: 3px;
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz34ZfNgWC9gedYRgsULK7ueQkVtZulKH7Sw&s");
     align-self: self-end;
     margin-right: 20px;
     width: 100px;
     height: 100px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 
 }
