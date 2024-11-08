@@ -35,7 +35,8 @@ function Clima()
         var icon = `https:${post.current.condition.icon}`;
 
         document.getElementById("temperatura").innerHTML = temperaturaC;
-        document.getElementById("iconClima").innerHTML = icon;
+        document.getElementById("iconClima").src = icon
+        document.getElementById("condition").innerHTML = `Condição: ${condição}`
     })
 }
 

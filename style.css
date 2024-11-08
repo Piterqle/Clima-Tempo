@@ -13,7 +13,7 @@ main
     margin-top: 40px;
     border: 2px solid black;
     width: 400px;
-    height: 350px;
+    height: 400px;
     align-items: center;
     justify-content: center;
 }
@@ -31,15 +31,22 @@ label
     font-size: 40px;
     font: bold;
 }
-#iconClima
+#DivIcon
 {
     margin-top: 3px;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz34ZfNgWC9gedYRgsULK7ueQkVtZulKH7Sw&s");
     align-self: self-end;
     margin-right: 20px;
     width: 100px;
     height: 100px;
-    background-repeat: no-repeat;
-    background-size: contain;
 
+}
+#iconClima
+{
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+}
+#condition
+{
+    font-size: 12px;
 }

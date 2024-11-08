@@ -10,12 +10,14 @@
 <body>
     <main>
         <div class="menu">
-            <div id="iconClima"></div>
+            <div id="DivIcon">
+                <img id="iconClima" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz34ZfNgWC9gedYRgsULK7ueQkVtZulKH7Sw&s" alt="">
+            </div>
             <label for="UF">Estados</label>
             <select name="UF" id="UF" class="cb" onclick="preencher_Cidade()"></select>
             <label for="Cidades">Cidade</label>
             <select name="Cidades" id="Cidades" class="cb" onclick="Clima()"></select>
-            
+            <p class="condition">Condição: </p>
             <p class="temperatura" id="temperatura">0°C</p>
             <script src="script.js" type="text/javascript"></script>
         </div>
